@@ -1,0 +1,30 @@
+{
+    "actions": [
+        {
+            "name": "RecordatorioTareasDiarias",
+            "description": "Te recuerda las principales tareas del d\u00eda.",
+            "parameters": []
+        },
+        {
+            "name": "RecordatorioRevisi\u00f3nSemanal",
+            "description": "Te recuerda revisar tu progreso semanal y establecer nuevas metas.",
+            "parameters": []
+        },
+        {
+            "name": "CrearTarea",
+            "description": "Crea una nueva tarea o subtarea.",
+            "parameters": [
+                {
+                    "name": "nombreTarea",
+                    "type": "string",
+                    "description": "El nombre de la tarea a crear."
+                },
+                {
+                    "name": "fechaVencimiento",
+                    "type": "string",
+                    "description": "La fecha de vencimiento para la tarea."
+                }
+            ]
+        }
+    ]
+}
